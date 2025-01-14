@@ -1,7 +1,9 @@
+import Card from "./simple_profile_card/Card.jsx";
+
 function App() {
   return (
     <>
-      <p>My React App</p>
+      <h3>My ReactJS App</h3>
     </>
   );
 }
