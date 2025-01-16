@@ -1,9 +1,9 @@
-import Card from "./simple_profile_card/Card.jsx";
+import Student from "./props_handling/Student.jsx";
 
 function App() {
   return (
     <>
-      <h3>My ReactJS App</h3>
+      <h2>My React App</h2>
     </>
   );
 }
