@@ -12,7 +12,7 @@ function Student(props) {
 }
 
 // Checar se as props tem os tipos corretos
-Student.propTypes = {
+Student.proptypes = {
   name: PropTypes.string,
   age: PropTypes.number,
   isStudent: PropTypes.bool,
@@ -20,7 +20,7 @@ Student.propTypes = {
 
 // Props default, para quando o valor não é passado no componente
 Student.defaultProps = {
-  name: "Visitor",
+  name: "Guest",
   age: 0,
   isStudent: false,
 };

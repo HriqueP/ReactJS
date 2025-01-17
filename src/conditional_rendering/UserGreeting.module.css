@@ -1,0 +1,15 @@
+.welcome_message {
+  background-color: #2bd32b;
+  padding: 10px;
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+.error_message {
+  background-color: #d83535;
+  padding: 10px;
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}

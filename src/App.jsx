@@ -1,5 +1,3 @@
-import Student from "./props_handling/Student.jsx";
-
 function App() {
   return (
     <>
