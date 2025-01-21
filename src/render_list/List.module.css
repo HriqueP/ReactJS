@@ -1,0 +1,18 @@
+.container_list {
+  background-color: #cecece;
+  padding: 10px;
+}
+
+.list_category {
+  font-style: oblique;
+  color: brown;
+}
+
+.list_item {
+  list-style: none;
+  padding: 0;
+}
+
+.list_item li {
+  padding: 5px;
+}
