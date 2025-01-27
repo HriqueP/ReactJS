@@ -1,7 +1,7 @@
 function App() {
   return (
     <>
-      <p>My React App</p>
+      <p>My React App!</p>
     </>
   );
 }
