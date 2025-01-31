@@ -1,7 +1,9 @@
+import Counter from "./use_state/Counter.jsx";
+
 function App() {
   return (
     <>
-      <p>My React App!</p>
+      <Counter />
     </>
   );
 }

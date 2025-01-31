@@ -1,0 +1,40 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: cadetblue;
+}
+
+.counter_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: 2px solid black;
+  border-radius: 10px;
+  padding: 20px;
+  background-color: aquamarine;
+}
+
+.current_number {
+  font-size: 2rem;
+}
+
+.buttons_container {
+  display: flex;
+  gap: 10px;
+}
+
+.action_buttons {
+  border: none;
+  outline: none;
+  padding: 0.5rem 0.75rem;
+  border-radius: 10px;
+  background-color: beige;
+  color: black;
+}
+.action_buttons:hover {
+  background-color: bisque;
+  cursor: pointer;
+}
