@@ -1,7 +1,9 @@
+import OnChangeComp from "./onchange_event/MyComponent.jsx";
+
 function App() {
   return (
     <>
-      <p>My React App</p>
+      <OnChangeComp />
     </>
   );
 }
