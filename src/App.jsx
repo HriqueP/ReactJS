@@ -1,7 +1,9 @@
+import Color from "./color_selector/Color.jsx";
+
 function App() {
   return (
     <>
-      <p>My React App</p>
+      <Color />
     </>
   );
 }
