@@ -1,7 +1,9 @@
+import UOS from "./update_object_states/UOS.jsx";
+
 function App() {
   return (
     <>
-      <p>My React App!</p>
+      <UOS />
     </>
   );
 }
