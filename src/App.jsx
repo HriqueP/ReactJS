@@ -1,9 +1,7 @@
-import UAS from "./update_arrays_state/UAS.jsx";
-
 function App() {
   return (
     <>
-      <UAS />
+      <p>My React App!</p>
     </>
   );
 }
