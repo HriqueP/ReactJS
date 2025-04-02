@@ -1,9 +1,7 @@
-import UpdaterFunction from "./updater_functions/UpdaterFunction.jsx";
-
 function App() {
   return (
     <>
-      <UpdaterFunction />
+      <p>My React App!</p>
     </>
   );
 }
