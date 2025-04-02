@@ -35,14 +35,14 @@ function UpdaterFunction() {
     React coloca funções de update em queue
     No proximo render, ele as chama em ordem
     */
-    setCount((count) => count + 1);
-    setCount((count) => count + 1);
+    setCount((c) => c + 1);
+    setCount((c) => c + 1);
   }
 
   function decrement() {
-    setCount((count) => count - 1);
-    setCount((count) => count - 1);
-    setCount((count) => count - 1);
+    setCount((c) => c - 1);
+    setCount((c) => c - 1);
+    setCount((c) => c - 1);
   }
 
   function reset() {

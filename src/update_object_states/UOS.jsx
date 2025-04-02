@@ -27,15 +27,15 @@ function UOS() {
     O jeito mais correto é utilizar updater functions para alterar states, já que é o modo mais 
     seguro de se fazer
     */
-    setCar((car) => ({ ...car, year: event.target.value }));
+    setCar((c) => ({ ...c, year: event.target.value }));
   }
 
   function handleMakeChange(event) {
-    setCar((car) => ({ ...car, make: event.target.value }));
+    setCar((c) => ({ ...c, make: event.target.value }));
   }
 
   function handleModelChange(event) {
-    setCar((car) => ({ ...car, model: event.target.value }));
+    setCar((c) => ({ ...c, model: event.target.value }));
   }
 
   return (
