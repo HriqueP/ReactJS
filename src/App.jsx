@@ -1,9 +1,7 @@
-import UAOS from "./update_array_objects_states/UAOS.jsx";
-
 function App() {
   return (
     <>
-      <UAOS />
+      <p>My React App!</p>
     </>
   );
 }
