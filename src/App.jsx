@@ -1,10 +1,7 @@
-import UseEffect from "./use_effect/UseEffect.jsx";
-import EffectWH from "./use_effect/EffectWH.jsx";
-
 function App() {
   return (
     <>
-      <EffectWH />
+      <p>My React App!</p>
     </>
   );
 }
