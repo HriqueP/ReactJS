@@ -1,9 +1,7 @@
-import ToDo from "./todo_list_app/ToDo.jsx";
-
 function App() {
   return (
     <>
-      <ToDo />
+      <p>My React App!</p>
     </>
   );
 }
