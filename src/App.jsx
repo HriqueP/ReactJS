@@ -1,7 +1,13 @@
+import DigitalClock from "./digital_clock/DigitalClock.jsx";
+
 function App() {
   return (
     <>
-      <p>My React App!</p>
+      <DigitalClock />
+
+      <DigitalClock />
+
+      <DigitalClock />
     </>
   );
 }
