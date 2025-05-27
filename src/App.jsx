@@ -1,7 +1,9 @@
+import ComponentA from "./use_context/ComponentA.jsx";
+
 function App() {
   return (
     <>
-      <p>My React App !!</p>
+      <ComponentA />
     </>
   );
 }
